@@ -5,9 +5,9 @@ int main() {
     scanf("%d%d",&x,&y);
     printf("Enter a variable: ");
     if(x>y){
-        printf("True")
+        printf("True");
     }else{
-        printf("False")
+        printf("False");
     }
     return 0;
 }
