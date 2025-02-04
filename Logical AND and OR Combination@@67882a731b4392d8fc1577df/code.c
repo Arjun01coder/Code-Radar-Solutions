@@ -1,16 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int x,y;
-    scanf("%d %d",&x,&y);
-    if (x>0 && y<0){
-        printf("True");
-    }else {
-        printf("False");
-    }else if(x==0 && y==0){
-        printf("True");
-    }else{
-        printf("False")
+    int a, b;
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
+
+    if ((a > 0 && b < 0) || (a == 0 && b == 0)) {
+        printf("True\n");
+    } else {
+        printf("False\n");
     }
     return 0;
 }
