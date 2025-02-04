@@ -8,8 +8,8 @@ int main() {
     int orResult = a | b;
     int andResult = a & b;
     
-    printf("Result of bitwise OR: %d\n", orResult);
-    printf("Result of bitwise AND: %d\n", andResult);
+    
+    printf("%d\n", andResult);
 
     return 0;
 }
