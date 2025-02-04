@@ -2,12 +2,14 @@
 
 int main() {
     int a, b;
+    
     scanf("%d %d", &a, &b);
 
-    int result = a | b;
+    int orResult = a | b;
     int andResult = a & b;
-    printf("%d\n", result);
-    printf("%d\n", andResult);
+    
+    printf("Result of bitwise OR: %d\n", orResult);
+    printf("Result of bitwise AND: %d\n", andResult);
 
     return 0;
 }
