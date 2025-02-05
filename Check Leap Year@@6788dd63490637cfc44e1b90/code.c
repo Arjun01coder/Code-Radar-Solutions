@@ -4,9 +4,9 @@ int main() {
     int x;
     scanf("%d",&x);
     if ((x%4==0 && x%100!=0) || (x%400==0)){
-        printf("%d",x);
+        printf("Leap Year");
     }else{
-        printf("%d",x);
+        printf("Not a Leap Year");
     }
     return 0;
 }
