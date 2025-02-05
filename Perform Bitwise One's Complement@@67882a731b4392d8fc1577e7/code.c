@@ -10,7 +10,7 @@ int main() {
     int result = ~num;
 
     // Printing the result
-    printf("%d:%d\n", num, result);
+    printf("%d\n", num, result);
 
     return 0;
 }
