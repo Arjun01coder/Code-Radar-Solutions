@@ -3,10 +3,10 @@
 int main() {
     int x;
     scanf("%d",&x);
-    if ((x%4==0 && x%100==0) || (x%400==0)){
-        printf("%d",Leap Year);
+    if ((x%4==0 && x%100!=0) || (x%400==0)){
+        printf("%d",x);
     }else{
-        printf("%d",Not a Leap Year);
+        printf("%d",x);
     }
     return 0;
 }
