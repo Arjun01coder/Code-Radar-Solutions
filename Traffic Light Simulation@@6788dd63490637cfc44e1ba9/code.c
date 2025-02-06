@@ -2,7 +2,6 @@
 
 int main() {
     char input;
-    printf("Enter traffic light color (R, G, Y): ");
     scanf("%c", &input);   
     switch (input) {
         case 'R':
