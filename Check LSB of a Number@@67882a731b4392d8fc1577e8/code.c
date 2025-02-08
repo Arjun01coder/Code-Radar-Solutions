@@ -2,12 +2,9 @@
 
 int main() {
     int num;
-
-    // Input from user
     
     scanf("%d", &num);
 
-    // Checking LSB using bitwise AND
     if (num & 1)
         printf("Set", num);
     else
