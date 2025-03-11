@@ -1,15 +1,17 @@
-#include<stdio.h>
-int main(){
-    int i,j,N,count;
-    scanf("%d",&N);
-    for (i=1;i<=N;i++)
-    int count =1;
-    {
-        for(j=1;j<=i;j++)
-        {
-            printf("%d ",count);
+#include <stdio.h>
+int main() {
+    int i, j, N;
+
+    printf("Enter the value of N: ");
+    scanf("%d", &N);
+
+    for (i = 1; i <= N; i++) {
+        int count = 1;
+        for (j = 1; j <= i; j++) {
+            printf("%d ", count);
             count++;
         }
         printf("\n");
     }
+    return 0;
 }
