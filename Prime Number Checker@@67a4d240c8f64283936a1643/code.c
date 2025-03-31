@@ -3,7 +3,7 @@ int isPrime(int num){
         return 0;
     }else{
         for (int i=2;i<=num-1;i++){
-            if(num % 2==0){
+            if(num % i==0){
                 return 0;
             }
         }
