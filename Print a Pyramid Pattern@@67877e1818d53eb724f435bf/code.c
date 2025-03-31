@@ -10,11 +10,11 @@ int main() {
         }
         //1st half
         for(int k=0; k<i+1;k++){
-            printf("%c",'A'+k);
+            printf("%c",*);
         }
         //2nd half
         for(int m=i-1; m>=0; m--){
-            printf("%c",'A'+m);
+            printf("%c",*);
         }
         printf("\n");
     }
