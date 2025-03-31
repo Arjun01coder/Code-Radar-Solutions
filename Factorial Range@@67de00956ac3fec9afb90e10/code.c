@@ -5,5 +5,4 @@ void factorialRange(int n, int m){
             printf("%d\n",fact);
         }
     }
-    return 0;
 }
